@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrintCare</title>
+    <link rel="stylesheet" href="css/Home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<script>
+    window.onload = function () {
+        const loading = document.getElementById('loading');
+        loading.style.display = 'none'; // Esconde a tela de carregamento quando a página é carregada
+    };
+</script>
+
+<body>
+    <div id="loading" class="loading">
+        <div class="spinner"></div>
+        <p>Carregando...</p>
+    </div>
+    <header class="menu">
+        <nav>
+            <div class="leftmenu">
+                <img src="img/Group 5.png" alt="">
+            </div>
+            <div class="rightmenu">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="Artigos/artigo.html">Artigos</a></li>
+                    <li><a href="Time/time.html">Sobre Nós</a></li>
+                    <li><a href="ia/ia.html">Solução</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    </div>
+    <section id="home" class="hero-section">
+        <div class="text">
+            <h3>Bem-vindo ao futuro da</h3>
+            <h1> Impressão 3D na Saúde! </h1>
+            <h3> Experiência de usuário moderna, elegante e interativa. </h3>
+            <button type="button" class="btn btn-secondary btn-lg">Leia Mais</button>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>
+            <strong>Sobre o Projeto</strong> Este site reúne informações e inovações sobre o uso da <strong>impressão 3D
+                com IA</strong>,
+            especialmente na criação de próteses e modelos anatômicos.
+        </p>
+    </section>
+
+    <section id="services" class="services-section">
+        <h2>Aplicações da IA na Impressão 3D</h2>
+        <div class="service-card">
+            <img src="img/R.jpg" alt="" class="cards">
+            <h3>Próteses Personalizadas</h3>
+            <p>Criação de próteses feitas sob medida para cada paciente, com base em seus dados anatômicos.</p>
+        </div>
+        <div class="service-card">
+            <img src="img/impressao-3d-na-area-medica-cria-implantes-personalizados-proteses-guias-e-modelos-cirurgicos-aprimora_1042793-1.jpg"
+                alt="" class="cards">
+            <h3>Modelos Cirúrgicos 3D</h3>
+            <p> Impressão de modelos realistas para que médicos possam planejar cirurgias complexas com maior precisão.
+            </p>
+        </div>
+        <div class="service-card">
+            <img src="img/WhatsApp-Image-2021-08-25-at-11.36.32.jpg" alt="" class="cards">
+            <h3>Implantes Customizados</h3>
+            <p>Desenvolvimento de implantes adaptados às necessidades específicas do paciente, otimizados pela IA.</p>
+        </div>
+        <div class="service-card">
+            <img src="img/OIP.jpg" alt="" class="cards">
+            <h3>Órgãos Artificiais</h3>
+            <p>Impressão 3D de órgãos e tecidos para transplantes e estudos médicos avançados.</p>
+        </div>
+        <div class="service-card">
+            <img src="img/OIP2.jpg" alt="" class="cards">
+            <h3>Pesquisa Farmacêutica</h3>
+            <p> Criação de estruturas 3D para testar novos medicamentos em ambientes controlados, antes de estudos
+                clínicos.</p>
+        </div>
+        <div class="service-card">
+            <img src="img/dispositivos foto.jpg" alt="" class="cards">
+            <h3>Dispositivos Médicos Sob Demanda</h3>
+            <p>Impressão de dispositivos médicos, como ferramentas cirúrgicas, ajustados às demandas imediatas de
+                hospitais e clínicas.</p>
+        </div>
+    </section>
+    <div class="sla">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <p>Fale Conosco</p>
+            <input type="hidden" name="access_key" value="53211e2c-6e0e-47ee-aa85-decdf2a533e8">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="Time/time.html">about us</a></li>
+                        <li><a href="Politicas de Privacidade/pp.html">privacy policy</a></li>
+                        <li><a href="FAQ/faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/14nbh5JqbG/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/PrintCare_?t=S-hWGiRS-YiPwiua3dDI_Q&s=08"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/printcare_/profilecard/?igsh=MXVodWp6djY0YTV4dw"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2024/10/23/16/20241023161157-1VW48G7J.js"></script>
+</body>
+
+</html>
