@@ -167,7 +167,7 @@ body {
 }
 
 .hero-section {
-    background-image: url(img/d-printing-progress.jpg);
+    background-image: url(../img/d-printing-progress.jpg);
     height: 670px;
     background-size: cover;
     background-position: center;
